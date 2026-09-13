@@ -1,9 +1,9 @@
-# Nav Smoother
+# :cyclone: Nav Smoother :cyclone:
 
 A custom path smoothing solution built on top of Unreal Engine's navmesh system.<br>
 The aim is to create natural-looking paths for the nav agents.
 
-## How it looks
+## :camera_flash: How it looks :camera_flash:
 
 <table>
 <tr>
@@ -21,7 +21,7 @@ The aim is to create natural-looking paths for the nav agents.
 </table>
 
 
-## Features overview
+## :sparkles: Features overview :sparkles:
 
 * Takes Unreal's string-pulled path, adjusts the path points, then applies Catmull-Rom spline interpolation.
 * Supports starting direction, with settings for turn-angle limits.
@@ -31,7 +31,7 @@ The aim is to create natural-looking paths for the nav agents.
   * Separately visualising each adjustment pass, from the string-pulled path to the final smoothed path.
 * On-screen performance metrics for the smoothing process can be turned on directly in the tool.
 
-## Settings and testing tools
+## :gear: Settings and testing tools :gear:
 
 <table>
 <tr>
@@ -50,7 +50,7 @@ The aim is to create natural-looking paths for the nav agents.
 </table>
 
 
-## Requirements
+## :clipboard: Requirements :clipboard:
 
 This project relies on Unreal Engine's `UNavigationSystemV1` and is compatible with UE 4.x.x-5.x.x versions.
 
